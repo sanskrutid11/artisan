@@ -6,7 +6,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 git branch: 'main', 
-                url: 'https://github.com/yourusername/artisan-ecommerce.git'
+                url: 'https://github.com/sanskrutid11/artisan.git'
             }
         }
 
